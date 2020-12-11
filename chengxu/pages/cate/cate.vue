@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		Cate---2
 	</view>
 </template>
 
@@ -14,6 +14,6 @@
 	}
 </script>
 
-<style lang="less">
+<style lang="scss">
 
 </style>

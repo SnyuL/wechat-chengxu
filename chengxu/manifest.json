@@ -1,5 +1,5 @@
 {
-    "name" : "day06",
+    "name" : "uni-shop-2",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -45,7 +45,7 @@
         "appid" : "wx5a5b9399b23aafd6",
         "setting" : {
             "urlCheck" : true,
-            "checkSiteMap":"false"
+            "checkSiteMap" : false
         }
     }
 }

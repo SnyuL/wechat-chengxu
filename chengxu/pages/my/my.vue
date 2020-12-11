@@ -1,19 +1,18 @@
 <template>
 	<view>
-		
+		Cart-----1
 	</view>
 </template>
 
 <script>
 	export default {
 		data() {
-			return {
-				
+			return {	
 			};
 		}
 	}
 </script>
 
-<style lang="less">
+<style lang="scss">
 
 </style>
