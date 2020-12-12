@@ -1,5 +1,7 @@
 <template>
   <view>
+    <!-- 使用自定义的搜索组件 -->
+    <my-search @myclick="gotoSearch"></my-search>
     <view class="scroll-view-container">
       <!-- 左侧的滚动视图区域 -->
       <scroll-view class="left-scroll-view" scroll-y :style="{height: wh + 'px'}">
@@ -55,6 +57,14 @@
       this.wh = sysInfo.windowHeight
     },
     methods:{
+      
+       // 跳转到分包中的搜索页面
+        gotoSearch() {
+          // console.log(2222)
+             uni.navigateTo({
+                  url: '/subpkg/search/search'
+                })
+        },
        // 选中项改变的事件处理函数
         activeChanged(i) {
           this.active = i
